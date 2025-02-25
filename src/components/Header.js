@@ -28,8 +28,9 @@ const Header = () => {
     hidden lg:flex - the nav is hidden by default
     <Link to={'/'}> - This is called a react router. This is how the page is able to navigate to different pages (the home page) without needing to reload the page
     hover:text-primary when the text is hovered over, the text will change to a primary theme color set by tailwind theme
-  */
-  return <header className= 'fixed w-full px-[30px] lg:px-[100px] z-30 h-[100px] lg:h-[140px] flex items-center'>
+  style={{ backgroundColor:"rgb(255, 247, 238)"}}
+    */
+  return <header className='fixed w-full px-[30px] lg:px-[100px] z-30 h-[100px] lg:h-[140px] flex items-center'>
     <div className='flex flex-col lg:flex-row lg:items-center w-full justify-between'>
       {/* Logo */}
       <Link to={'/'} className='max-w-[200px]'>
