@@ -5,8 +5,8 @@ import WomanImg from '../img/home/arianahome.jpg'
 import { Link } from 'react-router-dom'
 
 const Home = () => {
-  return <section className='section'>
-    <div className='container mx-auto '>
+  return <section className='section mt-[100px] lg:mt-[140px]'>
+    <div className='container mx-auto'>
       {/* text & image wrapper */}
       <div className='flex flex-col justify-center'>
         {/* text */}

@@ -30,7 +30,7 @@ const Header = () => {
     hover:text-primary when the text is hovered over, the text will change to a primary theme color set by tailwind theme
   style={{ backgroundColor:"rgb(255, 247, 238)"}}
     */
-  return <header className='fixed w-full px-[30px] lg:px-[100px] z-30 h-[100px] lg:h-[140px] flex items-center'>
+  return <header className='fixed top-0 left-0 w-full px-[30px] lg:px-[100px] z-30 h-[100px] lg:h-[140px] flex items-center'>
     <div className='flex flex-col lg:flex-row lg:items-center w-full justify-between'>
       {/* Logo */}
       <Link to={'/'} className='max-w-[200px]'>
