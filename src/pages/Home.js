@@ -37,20 +37,20 @@ const Home = () => {
           </motion.div>
           {/* image */}
           <div className='w-full lg:w-1/2 flex justify-center relative'>
-            <div className='border-4 border-black p-2 rounded-lg w-[80%] lg:w-[90%] max-w-[500px] lg:max-w-[700px] shadow-lg'>
+            <div className='border-4 border-white p-2 rounded-lg w-[80%] lg:w-[90%] max-w-[500px] lg:max-w-[700px]'>
               <motion.img 
-                initial={{ scale: 0 }}
+                initial={{ scale: 0.6 }}
                 animate={{ scale: 1 }}
-                exit={{ scale: 0 }}
+                exit={{ scale: 0.6 }}
                 transition={transition1}
                 src={ arianaImg } 
                 alt='' 
                 className='w-full h-auto object-cover rounded-md' />
             </div>
             <motion.div 
-              initial={{ scale: 0 }}
+              initial={{ scale: 0.6 }}
               animate={{ scale: 1 }}
-              exit={{ scale: 0 }}
+              exit={{ scale: 0.6 }}
               transition={transition1}
               className=' border-4 border-black p-2 rounded-lg shadow-lg absolute z-0 w-[80%] lg:w-[90%] max-w-[500px] lg:max-w-[700px]'
             >
